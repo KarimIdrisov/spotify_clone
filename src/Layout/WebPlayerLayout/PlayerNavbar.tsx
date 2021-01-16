@@ -7,7 +7,7 @@ import {
     ClickAwayListener, Divider,
     Grow,
     IconButton,
-    InputBase,
+    InputBase, InputBaseProps,
     List,
     ListItem, MenuItem, MenuList,
     Paper,
@@ -92,7 +92,10 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function PlayerNavbar(this: any, props: any) {
+export default function PlayerNavbar(props: {
+    input: string | undefined;
+    inputChange: any; // onchange works bad with Function
+}) {
     const classes = useStyles();
     const [selectedIndex, setSelectedIndex] = React.useState(0);
 
@@ -198,7 +201,6 @@ export default function PlayerNavbar(this: any, props: any) {
                             </Grow>
                         )}
                     </Popper>
-
                 </Toolbar>
             </AppBar>
         </div>

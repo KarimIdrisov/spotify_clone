@@ -34,7 +34,7 @@ interface ITrack {
     id: string,
 }
 
-export default function WatchPlaylist(props: any) {
+export default function WatchPlaylist() {
     const classes = useStyles();
     const [playlist, setPlaylist] = useState({
         url: '',

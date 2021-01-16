@@ -29,7 +29,7 @@ interface ITrack {
     duration_ms: number,
 }
 
-export default function WatchAlbum(props: any) {
+export default function WatchAlbum() {
     const classes = useStyles();
     const [playlist, setPlaylist] = useState({
         url: '',

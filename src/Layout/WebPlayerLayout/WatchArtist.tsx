@@ -29,7 +29,7 @@ interface ITrack {
     duration_ms: number,
 }
 
-export default function WatchArtist(props: any) {
+export default function WatchArtist() {
     const classes = useStyles();
     const [artist, setArtist] = useState({
         followers: 0,

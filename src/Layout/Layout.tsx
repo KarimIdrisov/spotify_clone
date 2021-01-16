@@ -1,4 +1,4 @@
-import React, {FunctionComponent, ReactElement, useState} from "react";
+import React, {ReactElement, useState} from "react";
 import Navbar from "./HomeLayout/Navbar";
 import Footer from "./HomeLayout/Footer";
 import Sidebar from "./HomeLayout/Sidebar";

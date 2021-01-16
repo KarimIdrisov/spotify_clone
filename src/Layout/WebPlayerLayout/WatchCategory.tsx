@@ -50,7 +50,7 @@ interface IOwner {
     display_name: string;
 }
 
-export default function WatchCategory(props: any) {
+export default function WatchCategory() {
     const classes = useStyles();
 
 

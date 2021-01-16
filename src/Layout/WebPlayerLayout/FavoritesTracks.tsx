@@ -33,7 +33,7 @@ interface ITrack {
     duration_ms: number,
 }
 
-export default function FavoritesTracks(props: any) {
+export default function FavoritesTracks() {
     const classes = useStyles();
     const [tracks, setTracks] = useState([])
 
