@@ -1,0 +1,13 @@
+// list of used api
+
+GET
+/me
+/browse/categories/id/playlists
+/player/recently-played
+/browse/categories
+/browse/category/id
+/browse/playlist/id
+/browse/playlist/id/tracks
+/browse/featured-playlists
+/search/query
+me/tracks
